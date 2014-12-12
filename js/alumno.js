@@ -1,6 +1,6 @@
 function AlumnoController($scope){
 
-    $scope.dni = false;
+    $scope.logged = false;
 
     $scope.usuario = {
         nombre:"Ingeniero Nelson",
