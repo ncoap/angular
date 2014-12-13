@@ -1,20 +1,12 @@
-function AlumnoController($scope){
+function StudentController($scope){
 
-    $scope.logged = false;
-
-    $scope.usuario = {
-        nombre:"Ingeniero Nelson",
-        edad:25,
-        sexo:"no se"
-    }
-
-    $scope.alumnos = [
-        {nombre:"Nelson Coqchi Apaza",telefono:"3930542",curso:"Angular con Spring Framework"},
-        {nombre:"Ricardo Coqchi Apaza",telefono:"3930542",curso:"Java Web 1"},
-        {nombre:"Jorge Coqchi Apaza",telefono:"3930542",curso:"Java Web 2"},
-        {nombre:"Carmen Coqchi Apaza",telefono:"25814725",curso:"Informacion de las realidades"},
-        {nombre:"Sonia Coqchi Apaza",telefono:"123456789",curso:"Como hablar en publico"},
-        {nombre:"Liam Coqchi Meza",telefono:"1479585665",curso:"Comprarme mi carro en las estaciones"}
+    $scope.students = [
+        {name:"Nelson Coqchi Apaza",phone:"3930542",course:"Angular con Spring Framework"},
+        {name:"Ricardo Coqchi Apaza",phone:"3930542",course:"Java Web 1"},
+        {name:"Jorge Coqchi Apaza",phone:"3930542",course:"Java Web 2"},
+        {name:"Carmen Coqchi Apaza",phone:"25814725",course:"Informacion de las realidades"},
+        {name:"Sonia Coqchi Apaza",phone:"123456789",course:"Como hablar en publico"},
+        {name:"Liam Coqchi Meza",phone:"1479585665",course:"Comprarme mi carro en las estaciones"}
     ];
 
 }
